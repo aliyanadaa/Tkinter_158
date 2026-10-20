@@ -32,3 +32,13 @@ label_prodi = tk.Label(
 )
 label_prodi.pack(pady=5)
 
+prodi = tk.StringVar()
+prodi.set("Teknologi Informasi")
+
+pilihan_prodi = tk.OptionMenu(
+    root,
+    prodi,
+    "Teknologi Informasi"
+)
+pilihan_prodi.pack()
+
