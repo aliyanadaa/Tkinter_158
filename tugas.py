@@ -42,3 +42,8 @@ pilihan_prodi = tk.OptionMenu(
 )
 pilihan_prodi.pack()
 
+def hasil_prediksi():
+    hasil.config(
+        text="Hasil Prediksi: Teknologi Informasi"
+    )
+
