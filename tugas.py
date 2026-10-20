@@ -11,3 +11,6 @@ judul = tk.Label(
 )
 judul.pack(pady=15)
 
+frame = tk.Frame(root)
+frame.pack(pady=10)
+
