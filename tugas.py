@@ -26,3 +26,9 @@ for i in range(10):
     entry = tk.Entry(frame, width=20)
     entry.grid(row=i, column=1, padx=5, pady=5)
 
+label_prodi = tk.Label(
+    root,
+    text="Prediksi Jurusan Anda:"
+)
+label_prodi.pack(pady=5)
+
