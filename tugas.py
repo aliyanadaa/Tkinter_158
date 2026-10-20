@@ -54,3 +54,9 @@ tombol = tk.Button(
 )
 tombol.pack(pady=15)
 
+hasil = tk.Label(
+    root,
+    text="Hasil Prediksi:"
+)
+hasil.pack(pady=5)
+
